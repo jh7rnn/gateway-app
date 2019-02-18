@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "gatewayApp",
+    "packageName": "com.jh.gateway.app",
+    "packageFolder": "com/jh/gateway/app",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "MjkwNDZlMzhmOWMyNzYyMDQwZDgwMDkxNDkwMjQ2YjVmOTYxMWI2ZDVhMDBmZTJiNjQ5Y2MwZmFiOGI0MGM4NjY2ZmU2YjhmNTAxMTgyYjk0MjU2NThiZjA4ZjA3ZGVkOGNmYTkyOTE5YTBhODU1ZThmZDBkMjY3ZmM4YjdjMjk=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "jh7rnn",
+  "repository-name": "gateway-app"
+}
